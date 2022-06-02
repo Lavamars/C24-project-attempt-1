@@ -5,12 +5,12 @@ const Body = Matter.Body;
 
 var ball,groundObj,leftSide,rightSide;
 var world;
-var radius = 70;
+var radius = 50;
 
 function preload(){
 //find the bug in the below code
-	dustbinImg = createImg("dustbin.png");
-	paperImg = createImg("paper.png");
+	dustbinImg = loadImage("dustbin.png");
+	paperImg = loadImage("paper.png");
 
 }
 
